@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    background-color: aquamarine;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.logoPNG{
+    width: 150px;
+    margin-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    padding-right: 150px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.link:hover{
+    color: white;
+}
+
